@@ -26,26 +26,19 @@
                     "hidden": true
                 }
             },
-            "username": {
-                "title": "Wink Username",
-                "type": "string"
-            },
-            "password": {
-                "title": "Wink Password",
+            "access_token": {
+                "title": "Access Token",
                 "type": "string",
                 "options": {
                     "hidden": true
                 }
             },
-            "access_token": {
-                "title": "Access Token",
-                "type": "string",
-                "readOnly": true
-            },
             "refresh_token": {
                 "title": "Refresh Token",
                 "type": "string",
-                "readOnly": true
+                "options": {
+                    "hidden": true
+                }
             }
         }
     }
